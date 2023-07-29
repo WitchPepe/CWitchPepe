@@ -11,11 +11,10 @@
         font-weight: bold;
         font-size: 20px;
 } 
-        body {
-            background-image: url('Banner.png');
-            background-repeat: no-repeat;
-            background-size: 100% 35%; /* Ajusta el tamaño de la imagen de fondo */
-            background-position:down; /* Centra la imagen de fondo */
+body {
+            background-image: url('img6.jpeg');            
+            background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+            background-position: center; /* Centra la imagen de fondo */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -33,22 +32,16 @@
             border: none; /* Elimina el borde del select si no lo deseas */
             border-radius: 5px;
             padding: 5px;
+            color: #00FF00;
         }
 
         #walletAddress {
             font-size: 24px;
+            color: #7ae07a;
             text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
         }
 
-        #imagenPequena {
-            position: absolute;
-            top: 100%; /* Mueve la imagen hacia abajo */
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 1500px; /* Ajusta el tamaño de la imagen pequeña */
-            height: 890px; /* Ajusta el tamaño de la imagen pequeña */
-            z-index: -1; /* Asegura que la imagen pequeña quede en el fondo */
-        }
+       
 
         button {
             background-color: rgb(8, 184, 32);
@@ -68,7 +61,7 @@
         #bannerText {
             position: absolute;
             top: 20%;
-            left: 20%; /* Ajusta la posición horizontal del texto */
+            left: 30%; /* Ajusta la posición horizontal del texto */
             transform: translateY(-50%);
             font-size: 60px;
             font-family: 'Smooth v2', sans-serif;
@@ -85,18 +78,17 @@
 
 <body>
     <nav>
-        <button id="signin">Sign into MetaMask</button>
+        <button id="signin">SłGЛ łЛTФ MΞTΛMΛSК</button>
     </nav>
-    <h1 id="bannerText">WITCHPEPE</h1>
-    <img id="imagenPequena" src="img2.jpeg" alt="Imagen Pequeña">
+    <h1 id="bannerText">Ⲱⲓⲧⲥⲏ Ⲣⲉⲣⲉ ⲓ⳽ ⲥⲟⲙⲓⲛⳋ</h1>
     <span id="container" style="text-align: center;">
          <div>
-            <p> <span id="walletAddress">WALLET ADDRESS</span></p>
+            <p> <span id="walletAddress"><b>ШΛŁŁΞT ΛÐÐЯΞSS</b></span></p>
         </div>
 
         <div>
             <select type="text" id="amount">
-                <option value="0">Select Amount</option>
+                <option value="0">SΞŁΞϾT ΛMФUЛT</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -109,7 +101,7 @@
                 <option value="4">10</option>
             </select>
         </div>
-        <button id="mint">Mint</button>
+        <button id="mint">MłЛT</button>
     </span>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.min.js"
